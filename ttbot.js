@@ -7,8 +7,6 @@
 // - check if before the morning sun by senzar was actually snagged
 // - listmods shows a bunch of undefined, also crashes if someone was just de-modded
 // - afk doesn't work for symbols including J*$
-// - mod chat fails miserably
-// - don't crash if there is no dj on stand when ttbot starts!!
 
 // Wish list:
 // - only list commands that are turned on for /commands, /help
@@ -25,8 +23,6 @@
 // - games: guess a number, tic tac toe, hangman
 // - autodrop on/off, num people on deck 2-5, announce before dropping
 // - integrate with discogs api
-
-// Ban list:  4e2e2a66a3f7512c88024536
 
 // Default values of variables - some of these can be reconfigured in the cfgfile
 var my = {};
