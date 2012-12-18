@@ -1,0 +1,102 @@
+﻿# This is the configuration file for:  slimbot
+# Watch your spelling and watch your spaces!
+
+# auth
+auth=
+
+# userid
+userid=
+
+# roomid ( Trim the Fat )
+roomid=
+
+# ownerid
+# this is the only person allowed to execute the /debug command
+ownerid=
+
+# wake_response
+# ttbot will say this when he restarts, unless wake_response=off
+wake_response=off
+
+# greeting_mode
+# ttbot will greet people when they enter the room, on/off
+greeting_mode=off
+
+# bop_mode
+# off=off, strict=bop on command for majority, loose=bop on command, always=auto bop for every song
+bop_mode=strict
+
+# bop_responses
+# ttbot will say one of these responses at random when bopping for a song (except if bop_mode is off or always)
+# separate responses with the pipe | symbol
+bop_responses=good one
+
+# afk_responses
+# ttbot will respond with one of these responses if an AFK person is mentioned in chat
+# separate responses with the pipe | symbol
+afk_responses=is away
+
+# maxplay_mode
+# ttbot will warn and/or kick people off the deck after they've played the max number of songs allowed
+# off=off, warn=say warning only, kick=say warning and kick off deck
+maxplay_mode=off
+
+# maxplays
+# used in conjunction with maxplay_mode, not used if maxplay_mode=off
+# X=number of songs
+maxplays=2
+
+# hop_mode
+# ttbot will hop on deck if there is 1 dj left (after waiting 10 seconds)
+# off=off, on=on
+hop_mode=on
+
+# escortafk
+# ttbot will kick people off the deck if they've been AFK (haven't chatted or awesomed) in X minutes
+# X=number of minutes, 0=unlimited (ttbot will not escort)
+escortafk=30
+
+# queue_mode
+# ttbot will require people to add themselves to a queue before DJing
+# on=on, off=off
+queue_mode=off
+
+# hello_mode
+# on/off switch for /hello command
+hello_mode=on
+
+# callme_mode
+# on/off switch for /callme command
+callme_mode=on
+
+# roominfo_mode
+# on/off switch for /roominfo command
+roominfo_mode=on
+
+# give_mode
+# on/off switch for /give command
+give_mode=on
+
+# chill_mode
+# on/off switch for /chill command
+chill_mode=on
+
+# space_mode
+# on/off switch for /space command
+space_mode=on
+
+# escortme_mode
+# on/off switch for /escortme command
+escortme_mode=on
+
+# afk_mode
+# on/off switch for /afk command
+afk_mode=on
+
+# fanratio_mode
+# on/off switch for /fanratio command
+fanratio_mode=on
+
+# guessthenumber_mode
+# on/off switch for /guessthenumber command (and /guess command)
+guessthenumber_mode=on
